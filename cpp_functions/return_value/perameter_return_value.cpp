@@ -7,6 +7,7 @@ int input_fun()
 {
     std::cout <<" Enter the value " << std::endl;
     std::cin >> n ;
+    return n;
 }
 
 int fun_value(int x)
@@ -17,6 +18,6 @@ int fun_value(int x)
 
 int main(int argc, char const *argv[])
 {
-    std::cout << fun_value(3);
+    std::cout << fun_value(39);
     return 0;
 }
