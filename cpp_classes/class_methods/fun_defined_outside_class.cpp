@@ -8,7 +8,7 @@ class myclass
 
 void myclass::method()
 {
-    std::cout << "Method." <<std::endl;
+    std::cout << "car details." <<std::endl;
 }
 
 class car
@@ -22,24 +22,18 @@ class car
         int gears;
         int manufactring_year; 
         
-        int mycar(std::string brand,
-            std::string model,
-            std::string color,
-            std::string transmission,
-            int maxspeed,
-            int gears,
-            int manufactring_year );
+        int mycar();
 };
 
-int car::mycar(std::string brand, std::string model, std::string color, std::string transmission, int maxspeed, int gears, int manufactring_year )
+int car::mycar()
 {
-    std::cout << "BMW" <<std::endl;
-    std::cout << "X5." <<std::endl;
-    std::cout << "Blue." <<std::endl;
-    std::cout << "Automatic." <<std::endl;
-    std::cout << "200." <<std::endl;
-    std::cout << "2." <<std::endl;
-    std::cout << "2015." <<std::endl;
+    std::cout << " Brand: " << "BMW" <<std::endl;
+    std::cout << " Model: " << "X5." <<std::endl;
+    std::cout << " Color: " << "Blue." <<std::endl;
+    std::cout << " Transmision mode: " << "Automatic." <<std::endl;
+    std::cout << " Top Speed: " << "200 MPH." <<std::endl;
+    std::cout << " Gears: " << "2." <<std::endl;
+    std::cout << " Manufactring Year: " << "2015." <<std::endl;
 
 }
 
@@ -49,7 +43,7 @@ int main(int argc, char const *argv[])
     myclassobj.method();
 
     car mycarobj;
-    mycarobj.mycar("barnd", " X5 "," Blue "," Automatic ", 200 , 2 , 2015);
+    mycarobj.mycar();
 
     return 0;
 }
