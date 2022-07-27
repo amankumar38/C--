@@ -22,10 +22,10 @@ class car
         int gears;
         int manufactring_year; 
         
-        int mycar();
+        void mycar();
 };
 
-int car::mycar()
+void car::mycar()
 {
     std::cout << " Brand: " << "BMW" <<std::endl;
     std::cout << " Model: " << "X5." <<std::endl;
@@ -34,7 +34,7 @@ int car::mycar()
     std::cout << " Top Speed: " << "200 MPH." <<std::endl;
     std::cout << " Gears: " << "2." <<std::endl;
     std::cout << " Manufactring Year: " << "2015." <<std::endl;
-
+    
 }
 
 int main(int argc, char const *argv[])
