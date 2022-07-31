@@ -26,11 +26,11 @@ class cow : public animal{
 
 int main(int argc, char const *argv[])
 {
-    animal myAnimal;
+    animal myAnimals;
     dog myDog;
     cow myCow;
 
-    myAnimal.animalSound();
+    myAnimals.animalSound();
     myDog.animalSound();
     myCow.animalSound();
     
