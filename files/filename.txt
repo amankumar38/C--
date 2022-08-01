@@ -1,0 +1,1 @@
+this is example of file manupulation in c plus plus
