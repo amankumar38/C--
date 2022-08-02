@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
         int myAge;
     }mystruct;
 
-    mystruct.myPhoneNum = 7206847388;
+    mystruct.myPhoneNum = 1234567890;
     mystruct.myName = "Aman kumar";
     mystruct.myAge = 28;
 
