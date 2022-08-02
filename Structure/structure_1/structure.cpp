@@ -1,20 +1,24 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
 
 int main(int argc, char const *argv[])
 {
     struct
     {
-        long long mynum;
-        string mystring;
+        long long myPhoneNum;
+        std::string myName;
+        int myAge;
     }mystruct;
 
-    mystruct.mynum = 7206847388;
-    mystruct.mystring = "Aman kumar";
+    mystruct.myPhoneNum = 7206847388;
+    mystruct.myName = "Aman kumar";
+    mystruct.myAge = 28;
 
-    cout << "Phone No.:- " << mystruct.mynum << endl;
-    cout << "Name:- " << mystruct.mystring << endl;
+    std::cout << "Name:- " << mystruct.myName << std::endl;
+    
+    std::cout << "Phone No.:- " << mystruct.myPhoneNum << std::endl;
+    
+    std::cout << "Age :- " << mystruct.myAge << std::endl;
     return 0;
 }
