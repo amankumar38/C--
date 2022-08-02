@@ -3,8 +3,8 @@
 
 class average{
 public:
-    int frist_number, second_number , sum;
-    float average;
+    int frist_number, second_number;
+    float sum, average;
 
 void values()
 {
