@@ -3,8 +3,7 @@
 
 class average{
 public:
-    int frist_number, second_number;
-    float sum, average;
+    float frist_number, second_number, sum, average;
 
 void values()
 {
@@ -21,7 +20,8 @@ void average_of_two_numbers()
     sum = frist_number + second_number;
     average = sum / 2;
 
-    std::cout << "Average of Two numbers is : " << average <<std::endl;
+    std::cout << "Sum of Two numbers is : " << sum <<std::endl
+              << "Average of Two numbers is : " << average <<std::endl;
 }
 };
 
