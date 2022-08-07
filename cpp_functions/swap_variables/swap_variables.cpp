@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int first_num, second_num;
+int first_num = 15, second_num = 25;
 
 int swap_variables(int &x, int &y)
 {
@@ -11,20 +11,10 @@ int swap_variables(int &x, int &y)
     return 0;
 }
 
-int values()
-{
-    std::cout << "Enter the frist number: " << std::endl;
-    std::cin >> first_num;
-
-    std::cout <<"Enter the second number: " << std::endl;
-    std::cin >> second_num;
-
-    return 0;
-}
 
 int main(int argc, char const *argv[])
 {
-    values();
+    
     std::cout <<"Before swap:" << std::endl;
 
     std::cout << first_num << " " <<second_num << std::endl;
