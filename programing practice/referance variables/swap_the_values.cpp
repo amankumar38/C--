@@ -25,13 +25,17 @@ int main(int argc, char const *argv[])
 
     std::cout << "Before swap: " << std::endl;
 
-    std::cout << frist_num << " " << second_num << std::endl;;
+    std::cout << "Frist Number " << frist_num << std::endl;
+
+    std::cout << "Second Number " << second_num << std::endl;
 
     swap_variables(frist_num, second_num);
 
     std::cout << "After swap: " << std::endl;
 
-    std::cout << frist_num << " " << second_num << std::endl;
+    std::cout << "Frist Number " << frist_num << std::endl;
+
+    std::cout << "Second Number " << second_num << std::endl;
 
     return 0;
 }
