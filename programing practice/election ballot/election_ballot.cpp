@@ -7,11 +7,11 @@ class election
     public:
         void election_candidate()
         {
-            std::cout << "\t\t\t\t Election ";
-            std::cout << "Press 1 to vote cnadidate 1:";
-            std::cout << "Press 2 to vote cnadidate 2:";
-            std::cout << "Press 3 to vote cnadidate 3:";
-            std::cout << "Press 4 to vote cnadidate 4:";
+            std::cout << "\t\t\t\t Election " <<std::endl;
+            std::cout << "Press 1 to vote cnadidate 1:" <<std::endl;
+            std::cout << "Press 2 to vote cnadidate 2:" <<std::endl;
+            std::cout << "Press 3 to vote cnadidate 3:" <<std::endl;
+            std::cout << "Press 4 to vote cnadidate 4:" <<std::endl;
             std::cout << "Press 5 to vote cnadidate 5:" <<std::endl;
 
         }
@@ -26,7 +26,8 @@ class election
             {
                 count[vote - 1]++;
             }
-            else{
+            else
+            {
                 spoil_ballot++;
             }
         }
@@ -36,9 +37,7 @@ class election
             std::cout << "\t\t\t\t Election Result: " <<std::endl;
             for(int i=0; i <= 5; i++)
             {
-                
                 std::cout << "\nCandidate " << i + 1 <<" got " << count[i] << " votes.";
-                
             }
             std::cout << "\n\nSpoil Ballots " << spoil_ballot <<std::endl;
         }
