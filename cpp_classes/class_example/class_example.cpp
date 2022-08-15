@@ -1,11 +1,9 @@
 #include <iostream>
 
-
-
 class employee{
     private:
         int salary, age , bonus;
-        char name;
+        std::string name;
     
     public:
         void setdata()
