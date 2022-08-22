@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
     cin>> b;
 
     sum = a + b; 
-    cout <<" Sum of two numbers = " << sum << endl;
+    cout <<"Sum of two numbers = " << sum << endl;
 
     return 0;
 }
