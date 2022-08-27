@@ -24,8 +24,6 @@ void sum()
     average = sum_of_elements / 2;
 
     std::cout << "average = " << average;
-
-    
 }
 
 int main()
