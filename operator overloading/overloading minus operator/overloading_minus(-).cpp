@@ -35,13 +35,13 @@ void sample::operator-()
 int main()
 {
     sample s;
-    s.getdata(10, 20, 30);
+    s.getdata(10, -20, 30);
 
-    std::cout << "S = ";
+    std::cout << "S : ";
     s.display();
 
     -s;
-    std::cout << "-S = ";
+    std::cout << "-S : ";
     s.display();
 
     return 0;
