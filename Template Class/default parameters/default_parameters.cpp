@@ -9,12 +9,6 @@ class sample
     T3 data3;
 
 public:
-    // sample(T1 x, T2 y, T3 z)
-    // {
-    //     data1 = x;
-    //     data2 = y;
-    //     data3 = z;
-    // }
     sample()
     {
         cout << "Enter Value of A = " <<endl;
